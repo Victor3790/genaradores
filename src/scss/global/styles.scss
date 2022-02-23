@@ -9,6 +9,25 @@
 
 @import "../vars";
 
+.header
+{
+    padding: 25px 0;
+}
+
+.header__title
+{
+    font-size: 20px;
+}
+
+.header__title--blue
+{
+    color: blue;
+}
+
+.header__title--red
+{
+    color: red;
+}
 
 //Media queries
 @import "./small";
