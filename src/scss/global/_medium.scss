@@ -1,4 +1,75 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-    
+  .cartshoping {
+    &__content {
+      display: inline;
+    }
+  }
+  .header {
+    &__number {
+      font-size: 16px;
+    }
+  }
+
+  .logout {
+    margin-left: 40px;
+    width: auto;
+    justify-content: flex-start;
+    &__element {
+      font-size: 15px;
+      &--ocultar {
+        display: inline;
+      }
+    }
+  }
+
+  .financiacion {
+    &__title {
+      font-size: 15px;
+    }
+  }
+
+  .envios {
+    display: block;
+  }
+
+  .secondfooter {
+    &__logos {
+      text-align: end;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &__politicas {
+      //     text-align: end;
+      //   display: flex;
+      //   justify-content: flex-end;
+      //   flex-wrap: wrap;
+      text-align: start;
+    }
+  }
+
+  .navbargrupo {
+    &__item {
+      display: flex;
+      justify-content: center;
+    }
+    &__link{
+        display: inline-block;
+        }
+    &__menu {
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        &--flex{
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+          }
+    //   &--md {
+    //     display: block;
+    //   }
+    //   &--mddown {
+    //     display: none;
+    //   }
+    }
+  }
 }
