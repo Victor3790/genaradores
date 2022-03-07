@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-3">
+            <img src="../assets/logo.png" class="header__img" alt="" />
+          </div>
+          <div class="col-3">
+            <p class="text-center mb-0">
+              <a href="#" class="header__number">
+                <i class="fa-solid fa-phone"></i>
+                931 588 305
+              </a>
+            </p>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <div class="cartshoping">
+              <div class="cartshoping__cart">
+                <a href="#" class="cartshoping__icon cartshoping__icon--lemon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </div>
+              <div class="cartshoping__content">
+                <a
+                  href="#"
+                  class="cartshoping__title cartshoping__title--lemon"
+                >
+                  Carrito de compras
+                </a>
+                <p class="cartshoping__price cartshoping__price--gray mb-0">
+                  0 artículo (s) - € 0.00
+                </p>
+              </div>
+            </div>
+            <ul class="logout">
+              <li>
+                <a href="#" class="logout__element logout__element--blue">
+                  Registrarse
+                </a>
+              </li>
+              <li class="logout__element logout__element--ocultar">|</li>
+
+              <li>
+                <a href="#" class="logout__element">Mi cuenta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-top mt-3">
+          <div class="navbargrupo">
+            <nav class="navbar p-0 navbar-expand-md navbar-light">
+              <div class="container-fluid">
+                <a class="navbar-brand d-md-none">Menu</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbargrupoContent"
+                  aria-controls="navbargrupoContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbargrupoContent"
+                >
+                  <div class="navbar-nav m-0 w-100 row">
+                    <div class="navbargrupo__item col-12 col-md-4 col-lg-3">
+                      <a class="dropdown-toggle dropdown navbargrupo__link"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                        >Generadores</a
+                      >
+
+
+                      <div class="dropdown-menu navbargrupo__menu">
+                        
+                        <div class="navbargrupo__menu--flex justify-content-between">
+                          <div>
+                            <a href="#" class="navbargrupo__menutitle">Tipo de Generadores</a>
+                            <ul class="navbargrupo__menulist">
+                              <li><a href="#">Generadores Gasolina</a></li>
+                              <li><a href="#">Generadores Diésel</a></li>
+                              <li><a href="#">Generadores Inverter</a></li>
+                              <li><a href="#">Generadores a Gas</a></li>
+                              <li><a href="#">Generadores Apoyo Placas Solares</a></li>
+                              <li><a href="#">Generadores Solares</a></li>
+                            </ul>
+
+                            <a href="#" class="navbargrupo__menutitle">Generadores por Marca</a>
+                            <ul class="navbargrupo__menulist">
+                              <li><a href="#">Generadores Hyundai</a></li>
+                              <li><a href="#">Generadores Faraday</a></li>
+                              <li><a href="#">Generadores Eléctricos Baratos</a></li>
+                              <li><a href="#">Generadores Honda</a></li>
+                              <li><a href="#">Generadores Kohler</a></li>
+                              
+                            </ul>
+                          </div>
+                          <div class="d-none d-md-block">
+                            <div class="carrousel__item carrousel__item--300px">
+                              <a href="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg" class="informacionprecio--fancybox iframe">
+                                <img
+                                  src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+                                  class="carrousel__img img-fluid rounded"
+                                  alt="..."
+                                />
+                              </a>
+                              <a href="#" class="carrousel__title">
+                                Grupo electrógeno MWM 200 KVA Insonorizado
+                              </a>
+                              <button
+                                type="button"
+                                class="boton mb-2 boton--noborder mt-2 boton--lemon boton--uppercase boton--padding w-100"
+                              >
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Comprar
+                              </button>
+                    
+                              <h3 class="carrousel__price">13 354,77€</h3>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      
+                      
+                    </div>
+                    </div>
+                    <div class="navbargrupo__item col-12 col-md-4 col-lg-3">
+                      <a class="dropdown-toggle dropdown navbargrupo__link"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                        >Grupos Electrógenos</a
+                      >
+
+                      <div class="dropdown-menu navbargrupo__menu">
+                        
+                        <div class="navbargrupo__menu--flex">
+                          <div>
+                            <a href="#" class="navbargrupo__menutitle">Marcas</a>
+                            <ul class="navbargrupo__menulist">
+                              <li><a href="#">Grupos electrógenos MWM GmbH</a></li>
+                              <li><a href="#">Grupos electrógenos Lombardini</a></li>
+                              <li><a href="#">Grupos Electrógenos IVECO</a></li>
+                              <li><a href="#">Grupos Electrógenos Deutz</a></li>
+                              <li><a href="#">Grupos electrógenos Hyundai</a></li>
+                            </ul>
+                          </div>
+                          
+                        </div>
+                      
+                      
+                    </div>
+
+                    </div>
+                    <div class="navbargrupo__item col-12 col-md-4 col-lg-3">
+                      <a
+                        class="dropdown-toggle dropdown navbargrupo__link"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Maquinaria
+                      </a>
+                      <div class="dropdown-menu navbargrupo__menu">
+                        
+                          <div class="navbargrupo__menu--flex">
+                            <div>
+                              <a href="#" class="navbargrupo__menutitle">Maquinaria Construcción</a>
+                              <ul class="navbargrupo__menulist">
+                                <li><a href="#">Cortadora asfalto</a></li>
+                                <li><a href="#">Pisones vibrantes compactadores</a></li>
+                                <li><a href="#">Fratasadora</a></li>
+                                <li><a href="#">Hormigonera</a></li>
+                                <li><a href="#">Plancha compactadora</a></li>
+                              </ul>
+                            </div>
+                            <div>
+                              <a href="#" class="navbargrupo__menutitle">Maquinaria Construcción</a>
+                              <ul class="navbargrupo__menulist">
+                                <li><a href="#">Cortadora asfalto</a></li>
+                                <li><a href="#">Pisones vibrantes compactadores</a></li>
+                                <li><a href="#">Fratasadora</a></li>
+                                <li><a href="#">Hormigonera</a></li>
+                                <li><a href="#">Plancha compactadora</a></li>
+                              </ul>
+                            </div>
+                            <div>
+                              <a href="#" class="navbargrupo__menutitle">Maquinaria Construcción</a>
+                              <ul class="navbargrupo__menulist">
+                                <li><a href="#">Cortadora asfalto</a></li>
+                                <li><a href="#">Pisones vibrantes compactadores</a></li>
+                                <li><a href="#">Fratasadora</a></li>
+                                <li><a href="#">Hormigonera</a></li>
+                                <li><a href="#">Plancha compactadora</a></li>
+                              </ul>
+                            </div>
+                            <div>
+                              <a href="#" class="navbargrupo__menutitle">Maquinaria Construcción</a>
+                              <ul class="navbargrupo__menulist">
+                                <li><a href="#">Cortadora asfalto</a></li>
+                                <li><a href="#">Pisones vibrantes compactadores</a></li>
+                                <li><a href="#">Fratasadora</a></li>
+                                <li><a href="#">Hormigonera</a></li>
+                                <li><a href="#">Plancha compactadora</a></li>
+                              </ul>
+                            </div>
+                            <div>
+                              <a href="#" class="navbargrupo__menutitle">Maquinaria Construcción</a>
+                              <ul class="navbargrupo__menulist">
+                                <li><a href="#">Cortadora asfalto</a></li>
+                                <li><a href="#">Pisones vibrantes compactadores</a></li>
+                                <li><a href="#">Fratasadora</a></li>
+                                <li><a href="#">Hormigonera</a></li>
+                                <li><a href="#">Plancha compactadora</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        
+                        
+                      </div>
+                    </div>
+                    <div class="navbargrupo__item mb-3 mb-md-0 col-12 col-md-4  d-md-none d-lg-block col-lg-3">
+                        <form action="#">
+                          <div class="groups">
+                            <input placeholder="Buscar" type="text" class="form-control groups__input">
+                            <button class="boton boton--lemon boton--noborder groups__boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="financiacion financiacion--green">
+      <div class="container">
+        <p class="mb-0 text-center financiacion__title">
+          <strong>
+            ¡Financia hasta 2.500 euros en compras en hasta 36 cuotas!
+            <a href="#" class="boton boton--white"> Más info </a>
+          </strong>
+        </p>
+      </div>
+    </div>
+
+    <div class="envios container">
+      <div class="row">
+        <div class="col-3">
+          <div class="envios__item">
+            <img src="../assets/free-delivery.png" class="envios__icon" />
+            <span class="envios__title"> Envios gratis 24/48h </span>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="envios__item">
+            <img src="../assets/politica.png" class="envios__icon" />
+            <span class="envios__title"> Garantía 2 años </span>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="envios__item">
+            <img src="../assets/moneda.png" class="envios__icon" />
+            <span class="envios__title"> Pago 100% seguro </span>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="envios__item">
+            <img src="../assets/llamar.png" class="envios__icon" />
+            <span class="envios__title"> Atención personalizada </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container navbreadcrumb">
+      <nav aria-label="breadcrumb" class="navbreadcrumb__nav">
+        <ol class="breadcrumb breadcrumb--centrado breadcrumb--tamano">
+          <li class="breadcrumb-item">
+            <a href="#" class="breadcrumb--nonedecoration"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+          </li>
+          <li class="breadcrumb-item breadcrumb--links">
+            <a href="#" class="breadcrumb--nonedecoration"
+              >Grupos Electrógenos</a
+            >
+          </li>
+          <li class="breadcrumb-item breadcrumb--links">
+            <a href="#" class="breadcrumb--nonedecoration"
+              >Grupos electrógenos MWM GmbH</a
+            >
+          </li>
+          <li
+            class="breadcrumb-item breadcrumb--links breadcrumb--active"
+            aria-current="page"
+          >
+            Grupo electrógeno MWM 51 KVA
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container informacionprecio">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <a
+            class="informacionprecio--fancybox iframe"
+            href="https://www.generadoreselectricos.org/1325-large_default/generador-electrico-carod-ctm-165-l-trifasico.jpg"
+          >
+            <img
+              class="informacionprecio__img"
+              src="https://www.generadoreselectricos.org/1325-large_default/generador-electrico-carod-ctm-165-l-trifasico.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="informacionprecio__preciodetalle">
+            <h2 class="informacionprecio__precio">
+              9 673,95€
+              <span class="informacionprecio__iva">IVA Incluido</span>
+            </h2>
+            <p class="informacionprecio__envio">
+              ¡ENVÍO GRATIS!
+              <img
+                class="informacionprecio__img informacionprecio__img--filter informacionprecio__img--w20"
+                src="../assets/camion-envio.png"
+                alt=""
+              />
+            </p>
+            <div class="">
+              <p class="informacionprecio__extra mb-0">
+                - Entrega a domicilio en
+                <span class="informacionprecio__extra--green">2-4 días</span>
+                laborables en Península.
+              </p>
+              <p class="informacionprecio__extra mb-0">
+                - <span class="informacionprecio__extra--green">15 días</span>
+                plazo de devolución.
+              </p>
+              <p class="informacionprecio__extra mb-4">
+                - Garantía estándar de
+                <span class="informacionprecio__extra--green">2 años</span>
+              </p>
+
+              <a
+                href="#tabformaspago"
+                class="mb-0 informacionprecio__link informacionprecio--fancybox"
+              >
+                Formas de pago
+              </a>
+              <a
+                href="#tabentregas"
+                class="mb-3 informacionprecio__link informacionprecio--fancybox"
+              >
+                Entrega, devolución, garantía
+              </a>
+
+              <button
+                type="button"
+                class="boton mb-4 boton--lemon boton--borderradius boton--uppercase boton--padding w-100"
+              >
+                Añadir a la cesta
+              </button>
+
+              <p class="informacionprecio__link text-center">
+                ¡Págalo a plazos!
+              </p>
+              <p class="text-center mb-5">
+                <a href="#" class="informacionprecio__desde d-block">
+                  desde 223,08 €/mes
+                </a>
+                <span
+                  class="informacionprecio__ley informacionprecio__ley--close"
+                >
+                  Ejemplo de financiación con APLAZAME para una cesta de
+                  9.673,95 € a 12 meses y que comienza a pagar a los 20 días
+                  desde la solicitud. Se solicita una entrada de 7.173,95 € que
+                  el usuario debe pagar a través de su tarjeta en el momento en
+                  que realiza la operación. El importe a financiar es la
+                  diferencia entre el valor de la cesta y la entrada: 2.500,00
+                  €. Se solicitan 12 mensualidades de 223,08 €. Comisión de
+                  apertura: 0,00 €. TIN: 14,95% TAE: 16,02%. Importe total
+                  adeudado: 9.850,97 €. Sujeto a la aprobación por parte de
+                  APLAZAME, S.L.
+                  <a
+                    class="informacionprecio__showmore informacionprecio__showmore--close"
+                    href=""
+                  >
+                    leer más
+                  </a>
+                </span>
+              </p>
+              <p>
+                <img
+                  src="../assets/payment-logo.png"
+                  class="informacionprecio__img"
+                  alt=""
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="informacionprecio__info">
+            <h2 class="informacionprecio__info--title">
+              Grupo electrógeno MWM 51 KVA
+            </h2>
+
+            <p
+              class="informacionprecio__info--gray informacionprecio__info--tamano mb-0"
+            >
+              <strong>Clasificación:</strong>
+              <a href="#" class="informacionprecio__info--nounderline">
+                inscribete para escribir una reseña
+              </a>
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Potencia nominal </strong> 48 kVA / 38,4 kW
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Potencia máxima </strong> 51 kVA / 40,8 kW
+            </p>
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Fases </strong> Trifásico
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Voltaje </strong> 400 V
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Frecuencia </strong> 50 Hz
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Marca alternador </strong> MECCALTE
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Modelo alternador </strong> ECP32-1M4C
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>RPM </strong> 1500 rpm
+            </p>
+
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Combustible </strong> Diesel
+            </p>
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Capacidad de combustible </strong> 135 litros
+            </p>
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Refrigeración </strong> Agua
+            </p>
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Marca motor </strong> MWM MAXXFORCE
+            </p>
+            <p class="mb-0 informacionprecio__info--tamano">
+              <strong>Modelo motor </strong> 4.10 NA
+            </p>
+            <p
+              class="informacionprecio__info--gray mb-0 informacionprecio__info--tamano"
+            >
+              <strong>Referencia: </strong>
+              CTM-50 L
+            </p>
+
+            <p
+              class="informacionprecio__info--gray mb-2 informacionprecio__info--tamano"
+            >
+              <strong>Estado: </strong>Producto nuevo CTM-50 L
+            </p>
+
+            <p class="mb-0">
+              <a href="#"
+                ><img
+                  src="../assets/calculadora.png"
+                  class="informacionprecio__img"
+                  alt=""
+              /></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12">
+          <ul
+            class="nav nav-pills navcaracteristica"
+            id="caracteristicasnav"
+            role="tablist"
+          >
+            <li class="nav-item navcaracteristica__item" role="presentation">
+              <button
+                class="active navcaracteristica__link"
+                id="descripcion-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#descripcion"
+                type="button"
+                role="tab"
+                aria-controls="descripcion"
+                aria-selected="true"
+              >
+                Descripción
+              </button>
+            </li>
+            <li class="nav-item navcaracteristica__item" role="presentation">
+              <button
+                class="navcaracteristica__link "
+                id="fichatecnica-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#fichatecnica"
+                type="button"
+                role="tab"
+                aria-controls="fichatecnica"
+                aria-selected="false"
+              >
+                Ficha técnica
+              </button>
+            </li>
+            <li class="nav-item navcaracteristica__item" role="presentation">
+              <button
+                class="navcaracteristica__link"
+                id="descargar-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#descargar"
+                type="button"
+                role="tab"
+                aria-controls="descargar"
+                aria-selected="false"
+              >
+                Descargar
+              </button>
+            </li>
+          </ul>
+          <div
+            class="tab-content navcaracteristica__content"
+            id="caracteristicasnavContent"
+          >
+            <div
+              class="tab-pane fade show active"
+              id="descripcion"
+              role="tabpanel"
+              aria-labelledby="descripcion-tab"
+            >
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="p-4">
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>DATOS TÉCNICOS DEL MOTOR</strong>
+                    </h3>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black"
+                        >Fabricante</strong
+                      >
+                      MWM
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">Modelo</strong>
+                      4.10 NA
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black"
+                        >Potencia máxima en emergencia (C.V.)</strong
+                      >
+                      CV/kW 64/47,7
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Potencia según norma
+                      </strong>
+                      ISO3046
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black"
+                        >Régimen de velocidad</strong
+                      >
+                      r.p.m. 1500
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Cilindrada
+                      </strong>
+                      litros 4,3
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Cilindros, nº y configuración
+                      </strong>
+                      4 en línea
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Diámetro x Carrera
+                      </strong>
+                      mm 103 x 129
+                    </p>
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Relación de compresión
+                      </strong>
+                      16,9:1
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA DE REFRIGERACIÓN</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tipo de refrigeración
+                      </strong>
+                      Líquido
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Temperatura de funcionamiento normal
+                      </strong>
+                      ºC 80/90
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Temperatura máxima nominal
+                      </strong>
+                      ºC 100
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Temperatura ambiente máxima para radiador
+                      </strong>
+                      ºC 45
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Caudal de aire para refrigeración
+                      </strong>
+                      m³/min 115
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Volumen de refrigerante en bloque motor
+                      </strong>
+                      litros 7
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Volumen de refrigerante en sistema completo
+                      </strong>
+                      litros 14
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Calor de irradiación superficies motor
+                      </strong>
+                      kcal/min 83,09
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Calor emitido por el agua
+                      </strong>
+                      kcal/kWh 531,80
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA DE ADMISIÓN</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tipo de aspiración
+                      </strong>
+                      Natural
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tipo de filtro de aire
+                      </strong>
+                      Radial de doble elemento
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Caudal de aire de admisión (aire 1,2 kg/m3)
+                      </strong>
+                      m³/min 3,84
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Postenfriador aire de carga / agua
+                      </strong>
+                      N/A
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Calor para el postenfriador
+                      </strong>
+                      kcal/min N/A
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA DE LUBRICACIÓN</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Capacidad de aceite máxima en cárter con filtro
+                      </strong>
+                      litros 9
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Especificaciones mínimas del aceite
+                      </strong>
+                      API-CI4
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Viscosidad del aceite de fábrica
+                      </strong>
+                      15W40
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA DE COMBUSTIBLE</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tipo de inyección y regulación
+                      </strong>
+                      Mecánica, inyección directa
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Consumo especifico
+                      </strong>
+                      g/cv.h 164
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Consumo especifico (diesel de 0,82g/ml)
+                      </strong>
+                      l/kw.*h 0,15
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Consumo de combustible a 100% carga continua
+                      </strong>
+                      litros/hora 8,12
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Consumo de combustible a 80% carga continua
+                      </strong>
+                      litros/hora 6,09
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Consumo de combustible a 50% carga continua
+                      </strong>
+                      litros/hora 4,06
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA DE ESCAPE</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Temperatura máxima del gas de escape
+                      </strong>
+                      ºC 725
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Caudal de gas de escape
+                      </strong>
+                      m³/min 18,58
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Máxima restricción (contrapresión) del escape
+                      </strong>
+                      mm H2O 1000
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Calor emitido por el escape
+                      </strong>
+                      kcal/min 531,80
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>SISTEMA ELÉCTRICO</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Sistema de carga
+                      </strong>
+                      Alternador
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Especificaciones de baterías
+                      </strong>
+                      V/Ah/CCA 12/900
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong
+                        >MANIOBRA, PROTECCION E INDICACION EN CUADRO
+                        ELÉCTRICO</strong
+                      >
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Proteccion contra sobreintensidades
+                      </strong>
+                      4P Magnetotérmico + controladora
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Protección diferencial
+                      </strong>
+                      Relé diferencial electrónico
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Pulsador seta parada de emergencia
+                      </strong>
+                      Incluido
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Disyuntor motorizado (consultar posibilidad de
+                        contactor)
+                      </strong>
+                      Opcional. Incluido en versión “Paralelo”
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>DATOS TÉCNICOS DEL ALTERNADOR</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Fabricante
+                      </strong>
+                      MECCALTE
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black"> Modelo </strong>
+                      ECP32-1M4C
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Frecuencia
+                      </strong>
+                      Hz 50
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tensión nominal
+                      </strong>
+                      V 400
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Tipo de conexión
+                      </strong>
+                      Estrella-Serie
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Nº de fases
+                      </strong>
+                      3
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Nº Polos
+                      </strong>
+                      4
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Potencia ^T= 125 °C, 40ºC en CONTINUO
+                      </strong>
+                      kVA 50
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Potencia ^T= 163 °C, 27ºC en STANDBY
+                      </strong>
+                      kVA 55
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Factor de potencia
+                      </strong>
+                      0,8
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Clase de aislamiento / ^Temp
+                      </strong>
+                      H/H
+                    </p>
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Grado de protección
+                      </strong>
+                      IP23
+                    </p>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Corriente de cortocircuito (durante 20seg)
+                      </strong>
+                      3 In
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Regulador de tensión
+                      </strong>
+                      Electrónico-AVR
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black"> Nota: </strong>
+                      Fabricante y modelo de alternador por defecto. El
+                      fabricante y modelo del alternador pueden variar según
+                      disponibilidad, entre Meccalte y Marelli, siempre con
+                      prestaciones y características similares.
+                    </p>
+
+                    <h3
+                      class="navcaracteristica__title navcaracteristica__title--blue"
+                    >
+                      <strong>INFORMACIÓN LOGÍSTICA</strong>
+                    </h3>
+
+                    <p class="mb-1">
+                      <strong class="navcaracteristica--black">
+                        Peso aprox. con líquidos en radiador y cárter
+                      </strong>
+                      kg 922
+                    </p>
+
+                    <p class="mb-3">
+                      <strong class="navcaracteristica--black">
+                        Volumen de combustible en depósito
+                      </strong>
+                      litros 135
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 d-none d-md-inline">
+                  <img
+                    src="../assets/aplazame.jpeg"
+                    class="navcaracteristica__img"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="fichatecnica"
+              role="tabpanel"
+              aria-labelledby="fichatecnica-tab"
+            >
+              <table class="table table-bordered table-striped table-ficha">
+                <tbody class="">
+                  <tr>
+                    <td>Potencia Nominal</td>
+                    <td>48 kVA / 38,4 kW</td>
+                  </tr>
+                  <tr>
+                    <td>Potencia Máxima</td>
+                    <td>51 kVA / 40,8 kW</td>
+                  </tr>
+
+                  <tr>
+                    <td>Fases</td>
+                    <td>Trifásico</td>
+                  </tr>
+                  <tr>
+                    <td>Voltaje</td>
+                    <td>400 V</td>
+                  </tr>
+
+                  <tr>
+                    <td>Frecuencia</td>
+                    <td>50 Hz</td>
+                  </tr>
+                  <tr>
+                    <td>Marca Alternador</td>
+                    <td>MECCALTE</td>
+                  </tr>
+                  <tr>
+                    <td>Modelo Alternador</td>
+                    <td>ECP32-1M4C</td>
+                  </tr>
+                  <tr>
+                    <td>Revoluciones</td>
+                    <td>1500 rpm</td>
+                  </tr>
+                  <tr>
+                    <td>Combustible</td>
+                    <td>Diesel</td>
+                  </tr>
+                  <tr>
+                    <td>Depósito del combustible</td>
+                    <td>135 litros</td>
+                  </tr>
+                  <tr>
+                    <td>Refrigeración</td>
+                    <td>Agua</td>
+                  </tr>
+                  <tr>
+                    <td>Marca Motor</td>
+                    <td>MWM MAXXFORCE</td>
+                  </tr>
+                  <tr>
+                    <td>Modelo Motor</td>
+                    <td>4.10 NA</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="descargar"
+              role="tabpanel"
+              aria-labelledby="descargar-tab"
+            >
+              <p>
+                <a href="#" class="navcaracteristica__linkPdf">CTM-50 L</a>
+              </p>
+              <button
+                class="boton boton--blue boton--hoverred boton--uppercase boton--padding"
+              >
+                <i class="fa-solid fa-download"></i>
+                Descargar (298.4k)
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container carrousel">
+      <h2 class="carrousel__tituloprincipal">Productos Relacionados</h2>
+
+      <div class="carrousel__items">
+        <div class="carrousel__item">
+          <a href="#">
+            <img
+              src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+              class="carrousel__img img-fluid rounded"
+              alt="..."
+            />
+          </a>
+          <a href="#" class="carrousel__title">
+            Grupo electrógeno MWM 200 KVA Insonorizado
+          </a>
+          <button
+            type="button"
+            class="boton mb-2 boton--noborder mt-2 boton--lemon boton--uppercase boton--padding w-100"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Comprar
+          </button>
+
+          <h3 class="carrousel__price">13 354,77€</h3>
+        </div>
+        <div class="carrousel__item">
+          <a href="#">
+            <img
+              src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+              class="carrousel__img img-fluid rounded"
+              alt="..."
+            />
+          </a>
+          <a href="#" class="carrousel__title">
+            Grupo electrógeno MWM 200 KVA Insonorizado
+          </a>
+          <button
+            type="button"
+            class="boton mb-2 boton--lemon boton--uppercase boton--noborder mt-2 boton--padding w-100"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Comprar
+          </button>
+          <h3 class="carrousel__price">13 354,77€</h3>
+        </div>
+        <div class="carrousel__item">
+          <a href="#">
+            <img
+              src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+              class="carrousel__img img-fluid rounded"
+              alt="..."
+            />
+          </a>
+          <a href="#" class="carrousel__title">
+            Grupo electrógeno MWM 200 KVA Insonorizado
+          </a>
+          <button
+            type="button"
+            class="boton mb-2 boton--noborder mt-2 boton--lemon boton--uppercase boton--padding w-100"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Comprar
+          </button>
+
+          <h3 class="carrousel__price">13 354,77€</h3>
+        </div>
+        <div class="carrousel__item">
+          <a href="#">
+            <img
+              src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+              class="carrousel__img img-fluid rounded"
+              alt="..."
+            />
+          </a>
+          <a href="#" class="carrousel__title">
+            Grupo electrógeno MWM 200 KVA Insonorizado
+          </a>
+          <button
+            type="button"
+            class="boton mb-2 boton--noborder mt-2 boton--lemon boton--uppercase boton--padding w-100"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Comprar
+          </button>
+
+          <h3 class="carrousel__price">13 354,77€</h3>
+        </div>
+        <div class="carrousel__item">
+          <a href="#">
+            <img
+              src="https://www.generadoreselectricos.org/1612-home_default/generador-electrico-carod-ctm-200-li-trifasico-insonorizado.jpg"
+              class="carrousel__img img-fluid rounded"
+              alt="..."
+            />
+          </a>
+          <a href="#" class="carrousel__title">
+            Grupo electrógeno MWM 200 KVA Insonorizado
+          </a>
+          <button
+            type="button"
+            class="boton mb-2 boton--noborder mt-2 boton--lemon boton--uppercase boton--padding w-100"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Comprar
+          </button>
+
+          <h3 class="carrousel__price">13 354,77€</h3>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-end">
+        <img
+          class=""
+          src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="resenas">
+        <h2 class="resenas__title">Reseñas</h2>
+        <button class="boton boton--blue boton--uppercase boton--padding">
+          Inscribete para escribir la reseña
+        </button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <footer class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4 class="footer__title">GENERADORES</h4>
+            <ul class="footer__lista">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Diesel</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Inverter</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Gasolina</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Grupos Electrógenos</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Baratos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4 class="footer__title">MAQUINARIA</h4>
+            <ul class="footer__lista">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Bombas de Agua</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Motobombas</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Desbrozadoras</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Soldadoras</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">MotoSoldadoras</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4 class="footer__title">TRABAJAMOS CON</h4>
+            <ul class="footer__lista">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Hyundai</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores Honda</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Generadores ITC Power</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Grupos Lombardini</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Grupos Carod</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4 class="footer__title">CONTACTO</h4>
+            <ul class="footer__lista">
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-solid fa-phone"></i> 931588305</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-brands fa-whatsapp"></i> 633 285 934</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-solid fa-envelope"></i> Correo electrónico</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div class="secondfooter">
+      <div class="container">
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="secondfooter__politicas col-12 col-md-6">
+            <div class="secondfooter__links">
+              <a href="#" class="secondfooter__link">Políticas de Uso</a>
+              <span class="mx-1 d-none d-sm-inline">|</span>
+              <a href="#" class="secondfooter__link">Politica de Privacidad</a>
+              <span class="mx-1 d-none d-sm-inline">|</span>
+              <a href="#" class="secondfooter__link">Aviso Legal</a>
+              <span class="mx-1 d-none d-sm-inline">|</span>
+              <a href="#" class="secondfooter__link"
+                >Devoluciones Y Garantías</a
+              >
+              <span class="mx-1 d-none d-sm-inline">|</span>
+              <a href="#" class="secondfooter__link">Política de Cookies</a>
+            </div>
+            <p class="secondfooter__copy">
+              © Todos los derechos reservados | Generadores Eléctricos 2020
+            </p>
+          </div>
+          <div class="secondfooter__logos col-12 col-md-6">
+            <img src="../assets/ssl.png" class="secondfooter__img" alt="" />
+            <img src="../assets/paypal.png" class="secondfooter__img" alt="" />
+            <img
+              src="../assets/mastercard.png"
+              class="secondfooter__img"
+              alt=""
+            />
+            <img src="../assets/visa.png" class="secondfooter__img" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tabformaspago" class="formatpay" style="display: none">
+      <div class="d-flex align-items-start">
+        <div
+          class="nav flex-column nav-pills me-3"
+          id="formatpay-tab"
+          role="tablist"
+          aria-orientation="vertical"
+        >
+          <button
+            class="active formatpay__button"
+            id="formatpay-tc-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#formatpay-tc"
+            type="button"
+            role="tab"
+            aria-controls="formatpay-tc"
+            aria-selected="true"
+          >
+            <img
+              class="formatpay__img"
+              src="../assets/tarjetadecredito.png"
+              alt=""
+            />
+            <br />
+            Tarjeta de crédito
+          </button>
+          <button
+            class="formatpay__button"
+            id="formatpay-paypal-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#formatpay-paypal"
+            type="button"
+            role="tab"
+            aria-controls="formatpay-paypal"
+            aria-selected="false"
+          >
+            <img class="formatpay__img" src="../assets/paypal.png" alt="" />
+            <br />
+            Paypal
+          </button>
+          <button
+            class="formatpay__button"
+            id="formatpay-ach-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#formatpay-ach"
+            type="button"
+            role="tab"
+            aria-controls="formatpay-ach"
+            aria-selected="false"
+          >
+            <img
+              class="formatpay__img"
+              src="../assets/transferencia.jpg"
+              alt=""
+            />
+            <br />
+            Transferencia bancaria
+          </button>
+          <button
+            class="formatpay__button"
+            id="formatpay-aplazame-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#formatpay-aplazame"
+            type="button"
+            role="tab"
+            aria-controls="formatpay-aplazame"
+            aria-selected="false"
+          >
+            <img class="formatpay__img" src="../assets/aplazame.png" alt="" />
+            <br />
+            Aplazame
+          </button>
+        </div>
+        <div class="tab-content" id="formatpay-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="formatpay-tc"
+            role="tabpanel"
+            aria-labelledby="formatpay-tc-tab"
+          >
+            <h1 class="formatpay__title">
+              VISA y MASTERCARD (abono inmediato)
+            </h1>
+            <div class="formatpay__content">
+              <p>
+                Enlace directo a pasarela de pago seguro SSL de CAIXABANK que
+                gzarantiza la máxima seguridad en las transacciones, verificando
+                la autorización del titular de la tarjeta gracias a los sistemas
+                Verified by VISA y MasterCard SecureCode.
+              </p>
+
+              <p>
+                Los datos tanto personales como bancarios estarán protegidos con
+                todas las medidas de seguridad establecidas por la Ley Orgánica
+                de Protección de Datos 15/1999.
+              </p>
+              <p>
+                ** Generadoreselectrónicos.org no almacena información referente
+                a tarjetas de crédito.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="formatpay-paypal"
+            role="tabpanel"
+            aria-labelledby="formatpay-paypal-tab"
+          >
+            <h1 class="formatpay__title">Paypal(abono inmediato)</h1>
+            <div class="formatpay__content">
+              <p>
+                La gestión de cobro se realiza a través del sistema seguro que
+                dispone PayPal. Las comisiones derivadas del uso de este método
+                corren a cargo de Enverd SL.
+              </p>
+              <p>
+                ** Generadoreselectrónicos.org no almacena información referente
+                a tarjetas de crédito.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="formatpay-ach"
+            role="tabpanel"
+            aria-labelledby="formatpay-ach-tab"
+          >
+            <h1 class="formatpay__title">
+              TRANSFERENCIA BANCARIA (abono en 2 días hábiles)
+            </h1>
+            <div class="formatpay__content">
+              <p>Número de la cuenta: 2100 0858 81 0200409907</p>
+              <p>Divisa: euros</p>
+              <p>IBAN (formato electrónico): ES6621000858810200409907</p>
+              <p>SWIFT / BIC: CAIXESBBXXX</p>
+              <p>Concepto: Introduzca su código de pedido.</p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="formatpay-aplazame"
+            role="tabpanel"
+            aria-labelledby="formatpay-aplazame-tab"
+          >
+            <h1 class="formatpay__title">
+              Pago aplazado APLÁZAME (pago fraccionado con abono inmediato)
+            </h1>
+            <div class="formatpay__content">
+              <p>
+                Aplace su compra en hasta 37 cuotas, importe máximo financiable
+                2.500 euros. Sin papeleos, esperas o gastos de gestión.
+                Seleccionando este método de pago al finalizar la compra y
+                utilizando su tarjeta de crédito.
+              </p>
+              <p>
+                Enlace directo a pasarela de pago seguro de Aplázame que
+                garantiza la máxima seguridad en las transacciones, verificando
+                la autorización del titular de la tarjeta gracias a los sistemas
+                Verified by VISA y MasterCard SecureCode.
+              </p>
+              <p>
+                ** Generadoreselectrónicos.org no almacena información referente
+                a tarjetas de crédito.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tabentregas" class="formatpay" style="display: none">
+      <div class="d-flex align-items-start">
+        <div
+          class="nav flex-column nav-pills me-3"
+          id="tabentregas-tab"
+          role="tablist"
+          aria-orientation="vertical"
+        >
+          <button
+            class="active formatpay__button"
+            id="tabentregas-tc-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabentregas-tc"
+            type="button"
+            role="tab"
+            aria-controls="tabentregas-tc"
+            aria-selected="true"
+          >
+            <img
+              class="formatpay__img"
+              src="../assets/camion-envio.png"
+              alt=""
+            />
+            <br />
+            Entrega
+          </button>
+          <button
+            class="formatpay__button"
+            id="tabentregas-paypal-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabentregas-paypal"
+            type="button"
+            role="tab"
+            aria-controls="tabentregas-paypal"
+            aria-selected="false"
+          >
+            <img class="formatpay__img" src="../assets/devolucion.png" alt="" />
+            <br />
+            Devolución
+          </button>
+          <button
+            class="formatpay__button"
+            id="tabentregas-ach-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabentregas-ach"
+            type="button"
+            role="tab"
+            aria-controls="tabentregas-ach"
+            aria-selected="false"
+          >
+            <img class="formatpay__img" src="../assets/garantia.png" alt="" />
+            <br />
+            Garantía
+          </button>
+        </div>
+        <div class="tab-content" id="tabentregas-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="tabentregas-tc"
+            role="tabpanel"
+            aria-labelledby="tabentregas-tc-tab"
+          >
+            <h1 class="formatpay__title">Entrega</h1>
+            <div class="formatpay__content">
+              <p>
+                Todos nuestros productos tienen la modalidad de envío gratuito
+                en Península (España y Portugal) y las Islas Baleares.
+              </p>
+
+              <p>
+                El plazo de entrega es de 2 a 4 días hábiles. Salvo demora por
+                cuenta de la empresa transportista.
+              </p>
+              <p>
+                ** Algunos generadores y/o grupos electrógenos, necesitarán
+                algunos días para preparación o ensamblado, más puesta en
+                marcha. Siempre se notificará al cliente los productos que
+                requieran este plazo adicional.
+              </p>
+              <p>
+                - La entrega se realizará con camión rampa o similar, a
+                excepción de los grupos electrógenos, cuyo transportes es SIN
+                pluma.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="tabentregas-paypal"
+            role="tabpanel"
+            aria-labelledby="tabentregas-paypal-tab"
+          >
+            <h1 class="formatpay__title">Devolución</h1>
+            <div class="formatpay__content">
+              <p>
+                Según establece la normativa, el consumidor y usuario tendrá
+                derecho a DESISTIR del contrato durante un período máximo de 14
+                días naturales sin necesidad de indicar el motivo y sin incurrir
+                en ningún coste, salvo los previstos en el art. 107.2 y 108 del
+                RD1/2007, de 16 de noviembre, por el que se aprueba el texto
+                referido de la Ley General para la Defensa de los Consumidores y
+                Usuarios.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="tabentregas-ach"
+            role="tabpanel"
+            aria-labelledby="tabentregas-ach-tab"
+          >
+            <h1 class="formatpay__title">Garantía</h1>
+            <div class="formatpay__content">
+              <p>
+                La garantía de nuestros productos (2 años para particulares y 1
+                año para empresa) será atendida directamente por el fabricante o
+                importador, siguiendo nuestros acuerdos de distribución.
+              </p>
+              <p>
+                El hecho de que las garantías sean atendidas por el fabricante
+                es una gran ventaja de cara al cliente, ya que dichas empresas
+                llevan décadas en el mercado y el usuario se puede beneficiar de
+                extensas redes de servicio de asistencia técnica y grandes
+                almacenes de piezas de recambio.
+              </p>
+              <p>
+                Enverd Import Management, S.L. garantizará siempre el debido
+                cumplimiento de la Ley de Garantías.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
