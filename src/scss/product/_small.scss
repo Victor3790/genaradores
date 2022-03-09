@@ -1,4 +1,12 @@
 // Small devices (landscape phones, 576px and up)
 @include media-breakpoint-up(sm) {
+    .navcaracteristica {
+        &__item {
+          width: auto;
+        }
+        &__link {
+          width: auto;
+        }
+      }
 
 }
